@@ -22,13 +22,13 @@ end
 puts dictionary
 
 def word_substituter(string)
-  new_word = []
+  tweet = []
   string.split(" ").each do |word|
     if dictionary.has_key?(word) #true or false
-      new_word << dictionary[word]
+      tweet << dictionary[word]
     else
-      new_word << word
+      tweet << word
     end
   end
-  new_word.join
+  tweet.join
 end
