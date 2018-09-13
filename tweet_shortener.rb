@@ -31,5 +31,5 @@ def word_substituter(string)
     end
   end
   binding.pry
-  tweet.join(", ")
+  tweet.join(" ")
 end
