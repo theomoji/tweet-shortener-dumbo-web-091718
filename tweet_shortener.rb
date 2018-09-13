@@ -50,5 +50,5 @@ end
 
 
 def shortened_tweet_truncator(string)
-  puts string 
+  string 
 end
