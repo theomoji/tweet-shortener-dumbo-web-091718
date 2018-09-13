@@ -3,6 +3,7 @@
 # word_substituter
 require "pry"
 def dictionary
+
   {
   "hello" => 'hi',
   "to"  => '2',
@@ -14,6 +15,7 @@ def dictionary
   'you' => 'u',
   "at" => "@",
   "and" => "&",
+    binding.pry
 }
 end
 
@@ -22,7 +24,7 @@ end
 def word_substituter(string)
   new_word = []
   string.split(" ").each do |word|
-    binding.pry
+
     if dictionary.has_key?(word) #true or false
 
       dictionary[word]
