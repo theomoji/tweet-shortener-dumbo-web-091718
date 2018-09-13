@@ -17,4 +17,4 @@ def dictionary
 }
 end
 
-p dictionary
+puts dictionary
