@@ -20,5 +20,5 @@ end
 # puts dictionary
 
 def word_substituter(string)
-  string.split(" ")
+  p string.split(" ")
 end
