@@ -39,3 +39,7 @@ end
 def bulk_tweet_shortener(string)
   string.each {| tweet | puts word_substituter(tweet)}
 end
+
+def selective_tweet_shortener(string)
+  puts string
+end
