@@ -30,6 +30,6 @@ def word_substituter(string)
       tweet << word
     end
   end
-  binding.pry
+  
   tweet.join(" ")
 end
