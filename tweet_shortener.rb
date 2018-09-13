@@ -1,7 +1,7 @@
 # Write your code here.
 
 # word_substituter
-require pry
+require "pry"
 def dictionary
   {
   "hello" => 'hi',
