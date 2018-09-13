@@ -3,7 +3,7 @@
 # word_substituter
 require "pry"
 def dictionary
-
+  binding.pry
   {
   "hello" => 'hi',
   "to"  => '2',
@@ -15,7 +15,7 @@ def dictionary
   'you' => 'u',
   "at" => "@",
   "and" => "&",
-    binding.pry
+
 }
 end
 
