@@ -45,6 +45,6 @@ def selective_tweet_shortener(string)
     string.each {| tweet | puts word_substituter(tweet)}
   elsif string.length < 130
     string
-  end 
+
   end
 end
