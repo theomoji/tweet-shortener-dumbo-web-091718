@@ -36,6 +36,6 @@ end
 
 
 def bulk_tweet_shortener(string)
-  string.each {| tweet | word_substituter(tweet)}
+  string.each {| tweet | p word_substituter(tweet)}
 
 end
