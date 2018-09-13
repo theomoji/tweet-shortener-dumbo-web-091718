@@ -29,8 +29,8 @@ def word_substituter(string)
       tweet << dictionary[word]
     else
       tweet << word
-    end
   end
+end
 
   tweet.join(" ")
 end
@@ -38,5 +38,4 @@ end
 
 def bulk_tweet_shortener(string)
   string.each {| tweet | puts word_substituter(tweet)}
-
 end
