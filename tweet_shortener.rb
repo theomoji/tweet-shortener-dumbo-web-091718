@@ -45,6 +45,5 @@ def selective_tweet_shortener(string)
     word_substituter(string)
   elsif string.length < 130
     string
-
   end
 end
