@@ -51,7 +51,7 @@ end
 
 def shortened_tweet_truncator(string)
   if string.length > 140
-    p string.truncate(140)
+     string.truncate(140)
   else
     string
   end
