@@ -1,7 +1,7 @@
 # Write your code here.
 
 # word_substituter
-
+require pry
 def dictionary
   {
   "hello" => 'hi',
@@ -20,5 +20,10 @@ end
 # puts dictionary
 
 def word_substituter(string)
-  p string.split(" ")
+  new_word = []
+  string.split(" ").each do |word|
+    if dictionary.has_key?(word) #true or false
+      binding.pry
+      dictionary[word]
+    end
 end
