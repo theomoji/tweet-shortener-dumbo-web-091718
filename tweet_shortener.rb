@@ -24,6 +24,7 @@ puts dictionary
 def word_substituter(string)
   new_word = []
   string.split(" ").each do |word|
+    binding.pry
 
     if dictionary.has_key?(word) #true or false
 
