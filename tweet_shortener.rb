@@ -21,12 +21,12 @@ end
 
 # puts dictionary
 
-def word_substituter(string)
-  new_word = []
-  string.split(" ").each do |word|
-
-    if dictionary.has_key?(word) #true or false
-
-      dictionary[word]
-    end
-end
+# def word_substituter(string)
+#   new_word = []
+#   string.split(" ").each do |word|
+#
+#     if dictionary.has_key?(word) #true or false
+#
+#       dictionary[word]
+#     end
+# end
