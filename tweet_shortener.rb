@@ -19,7 +19,7 @@ def dictionary
 }
 end
 
-# puts dictionary
+puts dictionary
 
 # def word_substituter(string)
 #   new_word = []
