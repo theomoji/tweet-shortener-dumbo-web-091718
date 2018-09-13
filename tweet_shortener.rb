@@ -25,8 +25,10 @@ def word_substituter(string)
   new_word = []
   string.split(" ").each do |word|
     if dictionary.has_key?(word) #true or false
-      new_word << ictionary[word]
+      new_word << dictionary[word]
+    else
+      new_word << word
     end
   end
-  new_word
+  new_word.join
 end
