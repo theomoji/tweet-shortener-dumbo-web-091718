@@ -30,6 +30,11 @@ def word_substituter(string)
       tweet << word
     end
   end
-  
+
   tweet.join(" ")
 end
+
+
+def bulk_tweet_shortener(string)
+
+end 
