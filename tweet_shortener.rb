@@ -23,6 +23,7 @@ end
 puts dictionary
 
 def word_substituter(string)
+  puts string
   tweet = []
   string.split(" ").each do |word|
     if dictionary.has_key?(word) #true or false
