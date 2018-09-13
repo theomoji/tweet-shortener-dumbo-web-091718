@@ -17,4 +17,8 @@ def dictionary
 }
 end
 
-puts dictionary
+# puts dictionary
+
+def word_substituter(string)
+  puts string
+end
